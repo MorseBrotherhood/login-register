@@ -1,0 +1,126 @@
+/* Общие стили для всей страницы */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;   /* Горизонтальное центрирование */
+  align-items: center;       /* Вертикальное центрирование */
+  text-align: center;
+  height: 100vh;              /* Высота на весь экран */
+  margin: 0;
+  overflow: hidden;           /* Убираем возможную прокрутку */
+}
+
+/* Контейнер для формы */
+.login-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+p{
+    font-weight: bold;
+}
+
+/* Стиль для инпутов */
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* При фокусе на инпуте */
+input:focus {
+  border-color: #007bff;
+}
+
+.ResDIV {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px; /* Скругленные углы */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Стили для заголовков */
+.ResDIV h1 {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.ver{
+    padding-inline: 10px;
+    border-radius: 15px; /* Скругленные углы */
+    border: 1px solid;
+}
+
+.usersdiv{
+    padding: 20px;
+    border-radius: 15px; /* Скругленные углы */
+    border: 1px solid;
+    width: 88%;
+}
+
+.logout{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ff8585;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.logout:hover{
+    background-color: #ff5959;
+    color: #fff;
+}
+
+.getusers{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00ac00;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.getusers:hover{
+    background-color: #008000;
+    color: #fff;
+}
+
+.bbnt{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #73b0ff;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.bbnt:hover{
+    background-color: #5c93ff;
+    color: #fff;
+}
